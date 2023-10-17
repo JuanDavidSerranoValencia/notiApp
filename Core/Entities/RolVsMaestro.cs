@@ -13,4 +13,13 @@ public class RolVsMaestro : BaseEntity
     public DateTime FechaCreacion { get; set; }
     [Required]
     public DateTime FechaModificacion { get; set; }
+
+
+    public int IdRolFk { get; set; }
+    public Rol Rols { get; set; }
+
+
+    public int IdModuloMaestroFk { get; set; }
+    public ModuloMaestro ModuloMaestro { get; set; }
+
 }

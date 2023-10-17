@@ -15,4 +15,8 @@ public class Rol : BaseEntity
     [Required]
     public DateTime FechaModificacion { get; set; }
 
+    public ICollection<RolVsMaestro> RolsVsMaestros  { get; set; }
+
+    public ICollection<GenericVsSubmodulo> GenericsVsSubmodulos  { get; set; }
+
 }

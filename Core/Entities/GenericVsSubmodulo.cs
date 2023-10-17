@@ -13,4 +13,16 @@ public class GenericVsSubmodulo : BaseEntity
     public DateTime FechaCreacion { get; set; }
     [Required]
     public DateTime FechaModificacion { get; set; }
+
+
+    public int IdRolFk { get; set; }
+    public Rol Rols { get; set; }
+
+
+    public int IdPermisoGenericoFk { get; set; }
+    public PermisoGenerico PermisoGenerico { get; set; }
+
+
+    public int IdMaestroSubmoduloFk { get; set; }
+    public MaestroVsSubmodulo MaestroVsSubmodulo { get; set; }
 }

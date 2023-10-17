@@ -13,4 +13,13 @@ public class MaestroVsSubmodulo : BaseEntity
     public DateTime FechaCreacion { get; set; }
     [Required]
     public DateTime FechaModificacion { get; set; }
+
+
+    public int IdModuloMaestroFk { get; set; }
+    public ModuloMaestro ModuloMaestro{ get; set; }
+
+
+    public int IdSubmoduloFk { get; set; }
+    public Submodulo Submodulo { get; set; }
+
 }

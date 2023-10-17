@@ -14,4 +14,8 @@ public class Submodulo : BaseEntity
     public DateTime FechaCreacion { get; set; }
     [Required]
     public DateTime FechaModificacion { get; set; }
+
+
+    public ICollection<MaestroVsSubmodulo> MaestrosVsSubmodulos{ get; set; }
+
 }
