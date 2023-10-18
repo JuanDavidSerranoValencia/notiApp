@@ -16,7 +16,7 @@ public class RolVsMaestro : BaseEntity
 
 
     public int IdRolFk { get; set; }
-    public Rol Rols { get; set; }
+    public Rol Rol { get; set; }
 
 
     public int IdModuloMaestroFk { get; set; }

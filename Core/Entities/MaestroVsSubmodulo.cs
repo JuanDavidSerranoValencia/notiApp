@@ -15,6 +15,7 @@ public class MaestroVsSubmodulo : BaseEntity
     public DateTime FechaModificacion { get; set; }
 
 
+    public ICollection<GenericVsSubmodulo> GenericsVsSubmodulos { get; set; }
     public int IdModuloMaestroFk { get; set; }
     public ModuloMaestro ModuloMaestro{ get; set; }
 

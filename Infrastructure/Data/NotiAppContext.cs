@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
+
 using System.Reflection;
-using System.Threading.Tasks;
 using Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,7 +10,7 @@ public class NotiAppContext : DbContext
     public NotiAppContext(DbContextOptions options) : base(options)
     {
     }
-    
+
     public DbSet<GenericVsSubmodulo> GenericVsSubmodulos { get; set; }
     public DbSet<MaestroVsSubmodulo> MaestroVsSubmodulos { get; set; }
     public DbSet<ModuloMaestro> ModuloMaestros { get; set; }

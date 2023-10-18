@@ -16,7 +16,7 @@ public class GenericVsSubmodulo : BaseEntity
 
 
     public int IdRolFk { get; set; }
-    public Rol Rols { get; set; }
+    public Rol Rol { get; set; }
 
 
     public int IdPermisoGenericoFk { get; set; }

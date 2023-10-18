@@ -15,5 +15,5 @@ public class PermisoGenerico : BaseEntity
     [Required]
     public DateTime FechaModificacion { get; set; }
 
-
+    public ICollection<GenericVsSubmodulo> GenericsVsSubmodulos { get; set; }
 }
